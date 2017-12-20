@@ -3,122 +3,224 @@
 <html>
 
 <head>
-<title>Treatment Completion Notice</title>
-<link href= style01.css rel="stylesheet" type="text/css" media="screen">
+	<title>Office Application</title>
+	<link href= style01.css rel="stylesheet" type="text/css" media="screen">
 </head>
 
 <body>
 
-<div id="wrapper">
-<h2>Treatment Completion Notice</h2>
-<div id="mainformr">
-<form>
-  <div id="task">
-  <fieldset>
-  <legend>Task Type</legend>
-    <div>
-      <input type="checkbox" id="coding" name="interest" value="coding">
-      <label for="coding">Mould Treatment</label>
-    </div>
-    <div>
-      <input type="checkbox" id="music" name="interest" value="music">
-      <label for="music">Trauma Scene Decontamination</label>
-    </div>
-    <div>
-      <input type="checkbox" id="art" name="interest" value="art">
-      <label for="art">Domestic Property DecontaminationArt</label>
-    </div>
-    <div>
-      <input type="checkbox" id="sports" name="interest" value="sports">
-      <label for="sports">Drug Paraphernalia</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Flood remediation</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Fire and Smoke contamination</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">General Decontamination</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Remove pigeon excretement</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Clandestine Drug Lab Remediation</label>
-    </div>
-    <div>
-    <div>
-      <input type="checkbox" id="other" name="interest" value="other">
-      <label for="other">Other</label>
-      <input type="text" id="otherValue" name="other">
-    </div>
-    </div>
-</fieldset>
-</div>
+	<div id="wrapper">
 
-<p></p>
-  <div id="task">
-  <fieldset>
-  <legend>Technician</legend>
-    <div>
-      <input type="checkbox" id="coding" name="interest" value="coding">
-      <label for="coding">Sally West</label>
-    </div>
-    <div>
-      <input type="checkbox" id="music" name="interest" value="music">
-      <label for="music">Derek Davis</label>
-    </div>
-    <div>
-      <input type="checkbox" id="art" name="interest" value="art">
-      <label for="art">Colin Davies</label>
-    </div>
-    <div>
-      <input type="checkbox" id="sports" name="interest" value="sports">
-      <label for="sports">Moira Knight</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Chris Laird</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Cody Lovell</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Kyle Lovell</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Steve Ficnerski</label>
-    </div>
-    <div>
-      <input type="checkbox" id="cooking" name="interest" value="cooking">
-      <label for="cooking">Andrew Hinton</label>
-    </div>
-    <div>
-    <div>
-      <input type="checkbox" id="other" name="interest" value="other">
-      <label for="other">Another</label>
-      <input type="text" id="otherValue" name="other">
-    </div>
-    </div>
-</fieldset>
-</div>
-<div>
-	<p></p>
-	<button type="submit">Submit form</button>
-</div>
+		<header>
+		<img src="Allgon1.JPG">
+	
+		<h1 id="OfficeHead"> Office Forms Dashboard</h1>
+		
+		</header>
+		
+		<div id="mainform">
+		
+			<!-- <p><a href="Index.html">HOME PAGE</a></p> -->
 
-</form>
-</div>
-</div>
+			<p></p>
+			<p>Select:</p>
+			
+			<p>Technician                   Status             Date Range</p>
+
+			<select name="Technician">
+				<option selected="">All</option>
+				<option>Technician 1</option>
+				<option>Technician 2</option>
+				<option>Etc.....</option>
+			</select>
+	
+			<select name="Status">
+				<option selected="">All forms</option>
+				<option>Assigned</option>
+				<option>Accepted</option>
+				<option>Submitted</option>
+				<option>Reported</option>
+				<option>Completed</option>
+				<option>Archived</option>
+				<option>ACTIVE?</option>
+				<option>OVERDUE?</option>
+				<option>Etc...</option>
+			</select>
+		
+			<select name="Dates">
+				<option selected="">All dates</option>
+				<option>Select dates range</option>
+			</select>
+
+			<button>
+				Apply
+			</button>
+
+	
+			<p></p>
+
+			<table style="width: 100%">
+				<thead>
+				<tr>
+					<th>Form ID</th>
+					<th>Date</th>
+					<th>Location</th>
+					<th>Name</th>
+					<th>Technician</th>
+					<th>Status</th>
+				</tr>
+				</thead>
+				<tbody>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td style="height: 19px">F000034</td>
+					<td style="height: 19px">25/12/2017</td>
+					<td style="height: 19px">Acacia Ridge</td>
+					<td style="height: 19px">Timber Pest Inspection Report</td>
+					<td style="height: 19px">John smith</td>
+					<td style="height: 19px">Submitted</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td class="auto-style1">&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+				<tr>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+					<td>&nbsp;</td>
+				</tr>
+			</tbody>
+			</table>
+
+			<p></p>
+			
+			<footer>
+				<button>
+					Assign Form
+				</button>
+	
+				<button>
+					Edit Form
+				</button>
+	
+				<button>
+					Convert to Report
+				</button>
+	
+				<button>
+					Make PDF
+				</button>
+	
+				<button>
+					Archive
+				</button>
+			</footer>
+
+		</div>
+	</div>
+
 </body>
 
 </html>
